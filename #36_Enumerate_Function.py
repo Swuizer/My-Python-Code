@@ -14,3 +14,10 @@ for index, mark in enumerate(marks):
     print(mark)
     if(index == 3):
         print("Harry, awesome")
+
+# Customize index in Enumerate Function
+
+for index, mark in enumerate(marks, start=1):
+    print(mark)
+    if(index == 3):
+        print("Harry, awesome")
